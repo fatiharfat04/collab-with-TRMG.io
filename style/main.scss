@@ -1,0 +1,133 @@
+body{
+    height: 2000px;
+    .section-2{
+        width: 100%;
+        height: 1295px;
+        margin: auto;
+        background: linear-gradient(180deg, #000000 1.17%, rgba(182, 182, 182, 0.399) 95.62%);
+        .p-s2{
+            padding-top: 30px;
+            width: 50%;
+            .serv-mob{
+                .sample{
+                    width: 700px;
+                    height: auto;
+                }
+                .service{
+                    width: 500px;
+                    height: auto;
+                }
+                .service-2{
+                    width: 500px;
+                    height: auto;
+                    position: absolute;
+                    right: 150px;
+                    z-index: -1;
+                }
+                .service-3{
+                    width: 500px;
+                    height: auto;
+                    position: absolute;
+                    left: 150px;
+                    z-index: -1;
+                }
+            }@media screen and (max-width: 1000px) {
+                .serv-mob{
+                    display: block;
+                    .sample{
+                        width: fit-content;
+                        height: auto;
+                    }
+                    .service{
+                        margin: 30px auto 0px;
+                        width: 90%;
+                        height: auto;
+                    }
+                    .service-2{
+                        margin: 30px auto 0px;
+                        width: 90%;
+                        height: auto;
+                        position: static;
+                    }
+                    .service-3{
+                        margin: 30px auto 0px;
+                        width: 90%;
+                        height: auto;
+                        position: static;
+                    }
+                }
+                }
+
+            h1{
+                font-size: 80px;
+            }
+
+        }@media screen and (max-width: 1150px) {
+            .p-s2{
+                width: 100%;
+                padding-top: 0%;
+                h1{
+                    font-size: 50px;
+                    margin-bottom: 20px;
+                }
+
+            }
+    }
+    }
+
+    .section-3{
+        width: 100%;
+        height: 1000px;
+        background: rgba(2, 2, 2, 1);
+        .container{
+            .testimoni{
+                color: #fff;
+                width: 40%;
+                position: relative;
+                left: 650px;
+                top: 250px;
+            }
+            .testi{
+                width: 100%;
+            }
+        }
+    }
+
+    .section-4{
+        width: 100%;
+        height: 300px;
+        background: rgba(2, 2, 2, 1);
+        .logo-f{
+           display: flex;
+           justify-content: center;
+            .img-footer{
+                width: 500px;
+                height: auto;
+            }
+            .sosmed{
+                .sosmedi{
+                    position: relative;
+                    left: 420px;
+                    width: 60px;
+                }
+            }
+        }
+    }
+
+}
+
+    .section-5{
+        width: 100%;
+        height: 150px;
+        background: rgba(2, 2, 2, 1);
+        .container{
+            .f-p{
+                .inner{
+                    display: flex;
+                    gap: 20px;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+

@@ -1,0 +1,119 @@
+body {
+  height: 2000px;
+}
+body .section-2 {
+  width: 100%;
+  height: 1295px;
+  margin: auto;
+  background: linear-gradient(180deg, #000000 1.17%, rgba(182, 182, 182, 0.399) 95.62%);
+}
+body .section-2 .p-s2 {
+  padding-top: 30px;
+  width: 50%;
+}
+body .section-2 .p-s2 .serv-mob .sample {
+  width: 700px;
+  height: auto;
+}
+body .section-2 .p-s2 .serv-mob .service {
+  width: 500px;
+  height: auto;
+}
+body .section-2 .p-s2 .serv-mob .service-2 {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  right: 150px;
+  z-index: -1;
+}
+body .section-2 .p-s2 .serv-mob .service-3 {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 150px;
+  z-index: -1;
+}
+@media screen and (max-width: 1000px) {
+  body .section-2 .p-s2 .serv-mob {
+    display: block;
+  }
+  body .section-2 .p-s2 .serv-mob .sample {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+  }
+  body .section-2 .p-s2 .serv-mob .service {
+    margin: 30px auto 0px;
+    width: 90%;
+    height: auto;
+  }
+  body .section-2 .p-s2 .serv-mob .service-2 {
+    margin: 30px auto 0px;
+    width: 90%;
+    height: auto;
+    position: static;
+  }
+  body .section-2 .p-s2 .serv-mob .service-3 {
+    margin: 30px auto 0px;
+    width: 90%;
+    height: auto;
+    position: static;
+  }
+}
+body .section-2 .p-s2 h1 {
+  font-size: 80px;
+}
+@media screen and (max-width: 1150px) {
+  body .section-2 .p-s2 {
+    width: 100%;
+    padding-top: 0%;
+  }
+  body .section-2 .p-s2 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+}
+body .section-3 {
+  width: 100%;
+  height: 1000px;
+  background: rgb(2, 2, 2);
+}
+body .section-3 .container .testimoni {
+  color: #fff;
+  width: 40%;
+  position: relative;
+  left: 650px;
+  top: 250px;
+}
+body .section-3 .container .testi {
+  width: 100%;
+}
+body .section-4 {
+  width: 100%;
+  height: 300px;
+  background: rgb(2, 2, 2);
+}
+body .section-4 .logo-f {
+  display: flex;
+  justify-content: center;
+}
+body .section-4 .logo-f .img-footer {
+  width: 500px;
+  height: auto;
+}
+body .section-4 .logo-f .sosmed .sosmedi {
+  position: relative;
+  left: 420px;
+  width: 60px;
+}
+
+.section-5 {
+  width: 100%;
+  height: 150px;
+  background: rgb(2, 2, 2);
+}
+.section-5 .container .f-p .inner {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */
